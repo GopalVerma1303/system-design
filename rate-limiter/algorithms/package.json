@@ -1,0 +1,17 @@
+{
+  "name": "@rate-limiter/algorithms",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Token Bucket, Leaking Bucket, Fixed Window, Sliding Window Log, Sliding Window Counter",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Gopal Verma",
+  "license": "MIT",
+  "dependencies": {
+    "cron": "^3.1.6",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
