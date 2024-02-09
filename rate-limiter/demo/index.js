@@ -1,8 +1,11 @@
 import express from "express";
+import { default as rateLimitMiddleware } from "./rate-limiter.js";
 
 const app = express();
 
 const PORT = process.env.PORT || 8000;
+
+app.use(rateLimitMiddleware);
 
 app.get("/ping", (req, res) => {
   res.status(200).json({
