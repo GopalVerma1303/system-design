@@ -1,0 +1,18 @@
+{
+  "name": "@rate-limiter/demo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Demo implementing rate limiting algorithms for Node APIs using Express and Redis",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Gopal Verma",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ioredis": "^5.3.2",
+    "moment": "^2.30.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
