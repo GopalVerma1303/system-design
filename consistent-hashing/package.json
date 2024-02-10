@@ -1,0 +1,12 @@
+{
+  "name": "@consistent-hashing/demo",
+  "version": "1.0.0",
+  "description": "Demo implementing Consistent Hashing Algorithm for load balancing.",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Gopal Verma",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
