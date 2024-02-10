@@ -5,7 +5,7 @@ class Consistent_hashing {
     nodes,
     replicas = 4,
     algorithm = "md5",
-    add_note_dynamically_time = 2000,
+    ADD_NODE_DYNAMICALLY_TIME = 2000,
   ) {
     this.replicas = replicas;
     this.algorithm = algorithm;
@@ -16,7 +16,7 @@ class Consistent_hashing {
     for (let i = 0; i < nodes.length; i++) {
       setTimeout(() => {
         this.addNode(nodes[i]);
-      }, add_note_dynamically_time * i);
+      }, ADD_NODE_DYNAMICALLY_TIME * i);
     }
   }
   addNode(node) {
